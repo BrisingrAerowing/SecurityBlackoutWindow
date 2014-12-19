@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityBlackoutWindow", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityBlackoutWindowTest", "src\SecurityBlackoutWindowTest\SecurityBlackoutWindowTest.csproj", "{620A4C92-2FE2-457E-98FD-7C2C7F70A667}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityBlackoutWindowTestWPF", "src\SecurityBlackoutWindowTestWPF\SecurityBlackoutWindowTestWPF.csproj", "{97AADBC2-2A78-4109-8F0F-27B7A6E7C454}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{620A4C92-2FE2-457E-98FD-7C2C7F70A667}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{620A4C92-2FE2-457E-98FD-7C2C7F70A667}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{620A4C92-2FE2-457E-98FD-7C2C7F70A667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97AADBC2-2A78-4109-8F0F-27B7A6E7C454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97AADBC2-2A78-4109-8F0F-27B7A6E7C454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97AADBC2-2A78-4109-8F0F-27B7A6E7C454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97AADBC2-2A78-4109-8F0F-27B7A6E7C454}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

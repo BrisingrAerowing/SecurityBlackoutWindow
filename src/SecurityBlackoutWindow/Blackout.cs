@@ -22,7 +22,7 @@ namespace SecurityBlackoutWindow
         {
             NativeMethods.WNDCLASSEX wndClass = new NativeMethods.WNDCLASSEX();
             
-            wndClass.cbSize = (UInt32)Marshal.SizeOf<NativeMethods.WNDCLASSEX>();
+            wndClass.cbSize = (UInt32)Marshal.SizeOf(typeof(NativeMethods.WNDCLASSEX));
             wndClass.style = 0;
             wndClass.lpfnWndProc = NativeMethods.DefWindowProc;
             wndClass.cbClsExtra = 0;
